@@ -1,0 +1,63 @@
+
+* {
+    font-family: 'Times New Roman', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+ul, ol {
+    list-style-position: inside;
+}
+
+h1 {
+    display: table;
+    margin: 0px auto 25px auto;
+    padding: 5px;
+    background-color:#ffebcd;
+    color: #a52a2a;
+    font-size: 2.5rem;
+}
+
+h2 {
+    color:#a52a2a;
+}
+
+h3 {
+    color:#ff6600;
+}
+
+p {
+    background-color: #ffebcd;
+    display: inline-block;
+    max-width: 50%;
+}
+
+img {
+    border: 3px solid #a52a2a
+}
+
+.ingredients {
+    display: inline-block;
+    text-align: left;   
+}
+
+.steps {
+    display: inline-block;
+    max-width: 50%;
+    height: auto;
+}
+
+.steps li {
+    margin-bottom: 1rem;
+}
+
+.center-left {
+    display: inline-block;
+    text-align: left;
+}
+
+.main-list li {
+    margin-bottom: 2rem;
+}
