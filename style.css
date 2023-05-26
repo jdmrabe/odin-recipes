@@ -2,11 +2,7 @@
 html {
     font-family: 'Roboto', sans-serif;
     background-color: #ddd;
-    color: #333;
-}
-
-body {
-    text-align: center;
+    color: #222;
 }
 
 ul, ol {
@@ -17,7 +13,8 @@ ul, ol {
 h1 {
     text-align: center;
     margin: 0px auto;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: bolder;
 }
 
 p {
@@ -26,13 +23,14 @@ p {
 }
 
 .header img {
-    height: 80px;
+    height: 60px;
     width: auto;
     filter: grayscale(100%)
 }
 
 .recipe-img {
     border: 3px solid #333;
+    box-shadow: 2px 2px 4px 1px #888;
 }
 
 .ingredients {
@@ -76,6 +74,9 @@ div.main-container {
 }
 
 .main-list li {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
     list-style: none;
     margin: 2em auto;
 }
@@ -90,10 +91,48 @@ div.main-container {
     color: white;
 }
 
-.back-button {
-    text-decoration: none;
+.recipe-container {
+    text-align: center;
+}
+
+.recipe-container h1 {
+    text-shadow: 2px 2px 3px #888;
+    margin: 4.5rem auto 1.5rem;
+}
+
+.recipe-container h2 {
+    display: block;
+    text-align: center;
+    background-color: #333;
+    border-radius: 15px;
+    margin-inline: auto;
+    margin-top: 1rem;
+    max-width: 600px;
+    color: white;
     padding: 10px;
+    box-shadow: 2px 2px 4px 1px #888;
+}
+
+.recipe-container h3 {
+    font-size: 1.5rem;
+}
+
+.recipe-container p {
+    text-align: justify;
+}
+
+.recipe-container li, p {
+    font-size: 1.20rem;
+}
+
+.back {
+    position: absolute;
+    top: 20px;
+    margin-left: 10px;
+    padding: 15px;
     background-color: #333;
     color: #fff;
     border-radius: 100px;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
